@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 80px;
+    font-family: "Indie Flower", sans-serif;
+}
+h2{
+    font-size: 30px;
+    padding-right: 1000px;
+    text-align: center;
+}
+body{
+    font-family:"Dancing-Script", sans-serif;
+    background-color: rgb(226, 255, 145);
+    font-size: 20px;
+    align-items: center;
+}
+p:nth-child(odd) {
+    background-color:skyblue;
+}
+p:nth-child(even) {
+    color: rgb(9, 0, 129);
+}
+figure > img{
+    width: 300px;
+    margin: 0 1em;
+    float: left;
+    margin-right: 10px;
+}
+.img{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(91, 50, 50);
+    border-radius: 25px; 
+}
